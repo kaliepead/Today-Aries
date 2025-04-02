@@ -1,118 +1,98 @@
-header {
-  text-align: center; 
-  padding-top: 20px; 
-}
-
-header img {
-  max-width: 100%;
-  height: auto;
-}
-
 body {
-    min-height: 100vh;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: local;
-   background: rgb(251,225,227);
-background: linear-gradient(180deg, rgba(251,225,227,1) 36%, rgba(241,250,251,1) 67%);
-    justify-content: flex-start;
-    align-items: center;
-
-}
-
-html {
-    height: 100%;
-    margin: 0;
-  background: rgb(251,225,227); 
-  background: linear-gradient(180deg, rgba(251,225,227,1) 36%, rgba(241,250,251,1) 67%);
-}
-
-#generateButton {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    height: 40px;
-    width: 180px;
-    font-size: 15px;
-    border-radius: 20px;
-    border-color: white;
-    background-color: #6b608f;
-    color: white;
-  margin-top:10px;
-    display: block;
-
-
-}
-
-footer {
-    margin-top: auto;
-    background-color: transparent;
-}
-
-h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20pt;
-    margin-bottom: 40px;
-}
-ul {
-    list-style-type: none;
-    line-height: 18pt;
-    font-size: 12pt;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 0;
-}
-
-
-
-#container {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-
-}
-
-#hContainer{
-    text-align: center;
-}
-
-#rContainer{
-text-align: center;
-
-}
-#result{
-    display: inline-block;
-    max-width: 40%;
-    margin-left: -5vh;
-    margin-top: 5%;
-}
-#btn{
-    margin-top: 20px;
-    margin-bottom: 20px;
-  text-align: center;
-   
-
-}
-
-
-.first{
-    position: absolute;
-    box-sizing: border-box;
-    width: 200px;
-    height: 400px;
-    margin-left: 110px;
-    margin-top: 140px;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-}
-
-    .year{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 20px;
-        position: absolute;
-        top: 17px;
-        left: 265px;
-        color: white;
-    }
-
-
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: local;
+     background: rgb(251,225,227);
+ background: linear-gradient(180deg, rgba(251,225,227,1) 38%, rgba(200,225,228,1) 78%);
+     justify-content: center;
+     align-items: center;
+ 
+ }
+ 
+ html {
+     height: 100%;
+     margin: 0;
+ }
+ 
+ #generateButton {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+     height: 25px;
+     width: 120px;
+     font-size: 15px;
+     border-radius: 20px;
+     border-color: white;
+     background-color: #b6a8e3;
+     justify-content: center;
+     color: white;
+     margin-top: 80%;
+ 
+ 
+ }
+ 
+ footer {
+     margin-top: auto;
+ }
+ 
+ h1{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 20pt;
+     margin-bottom: 40px;
+ }
+ ul {
+     list-style-type: none;
+     line-height: 18pt;
+     font-size: 12pt;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-top: 0;
+ }
+ 
+ 
+ 
+ #container {
+     text-align: center;
+ 
+ }
+ 
+ #hContainer{
+     text-align: center;
+ }
+ 
+ #rContainer{
+ text-align: center;
+ 
+ }
+ #result{
+     display: inline-block;
+     max-width: 40%;
+     margin-left: -5vh;
+     margin-top: 5%;
+ }
+ #btn{
+     position: absolute;
+     padding-left: 50%;
+ 
+ }
+ 
+ 
+ .first{
+     position: absolute;
+     box-sizing: border-box;
+     width: 200px;
+     height: 400px;
+     margin-left: 110px;
+     margin-top: 140px;
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+ }
+ 
+     .year{
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-size: 20px;
+         position: absolute;
+         top: 17px;
+         left: 265px;
+         color: white;
+     }
