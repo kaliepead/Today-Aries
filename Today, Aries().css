@@ -1,12 +1,13 @@
 body {
-    background-image: url(./assets/Today Aries Long Background.png);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: local;
-    background-color: #b6a8e3;
+    background: rgb(251,225,227);
+background: linear-gradient(180deg, rgba(251,225,227,1) 38%, rgba(200,225,228,1) 78%);
+
 }
 
 html {
