@@ -15,6 +15,21 @@ html {
     margin: 0;
 }
 
+#generateButton {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    height: 25px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 20px;
+    border-color: white;
+    background-color: #02322f;
+    justify-content: center;
+    color: white;
+    margin-top: 80%;
+
+
+}
+
 footer {
     margin-top: auto;
 }
@@ -33,20 +48,7 @@ ul {
 }
 
 
-#generateButton {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    height: 25px;
-    width: 120px;
-    font-size: 15px;
-    border-radius: 20px;
-    border-color: white;
-    background-color: #02322f;
-    justify-content: center;
-    color: white;
-    margin-top: 80%;
 
-
-}
 #container {
     text-align: center;
 
