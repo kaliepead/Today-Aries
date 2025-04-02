@@ -27,12 +27,14 @@ html {
     background-color: #6b608f;
     justify-content: center;
     color: white;
+    margin-top: 20px
 
 
 }
 
 footer {
     margin-top: auto;
+    background-color: transparent;
 }
 
 h1{
@@ -70,8 +72,8 @@ text-align: center;
     margin-top: 5%;
 }
 #btn{
-    position: absolute;
     padding-left: 50%;
+    margin-top: 20px;
 
 }
 
