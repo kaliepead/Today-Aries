@@ -7,8 +7,10 @@ body {
      background-attachment: local;
      background: rgb(251,225,227);
  background: linear-gradient(180deg, rgba(251,225,227,1) 38%, rgba(200,225,228,1) 78%);
-     justify-content: center;
+     justify-content: flex-start;
      align-items: center;
+     padding: 0;
+     Margin: 0;
  
  }
  
@@ -27,7 +29,8 @@ body {
      background-color: #b6a8e3;
      justify-content: center;
      color: white;
-     margin-top: 80%;
+     margin-top: 20px;
+     display: block;
  
  
  }
@@ -53,15 +56,21 @@ body {
  
  #container {
      text-align: center;
+      width: 100%;
+      display: block;
  
  }
  
  #hContainer{
-     text-align: center;
+      text-align: center;
+      width: 100%;
+      display: block;
  }
  
  #rContainer{
- text-align: center;
+   text-align: center;
+      width: 100%;
+      display: block;
  
  }
  #result{
@@ -71,8 +80,9 @@ body {
      margin-top: 5%;
  }
  #btn{
-     position: absolute;
-     padding-left: 50%;
+  margin-top: 20px;
+      text-align: center;
+      padding-left: 0;
  
  }
  
@@ -96,3 +106,17 @@ body {
          left: 265px;
          color: white;
      }
+
+@media (max-width: 768px) {
+     body {
+     padding: 0 10px;
+     align-items: center;
+     }
+     #generateButton {
+          width: 100%;
+          max-width: 180px;
+     }
+}
+     
+
+     
