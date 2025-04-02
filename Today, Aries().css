@@ -1,16 +1,23 @@
+header img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
 body {
      min-height: 100vh;
      display: flex;
      flex-direction: column;
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-attachment: local;
-     background: rgb(251,225,227);
- background: linear-gradient(180deg, rgba(251,225,227,1) 38%, rgba(200,225,228,1) 78%);
      justify-content: flex-start;
      align-items: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background: rgb(251,225,227);
+ background: linear-gradient(180deg, rgba(251,225,227,1) 38%, rgba(200,225,228,1) 78%);
      padding: 0;
      Margin: 0;
+     width: 100%;
  
  }
  
@@ -31,6 +38,8 @@ body {
      color: white;
      margin-top: 20px;
      display: block;
+      margin-left: auto;
+      margin-right: auto;
  
  
  }
@@ -55,9 +64,11 @@ body {
  
  
  #container {
+     width: 100%
+          min-height: 80vh;
      text-align: center;
-      width: 100%;
-      display: block;
+      padding: 20px;
+      box-sizing: border-box;
  
  }
  
@@ -74,10 +85,10 @@ body {
  
  }
  #result{
-     display: inline-block;
-     max-width: 40%;
-     margin-left: -5vh;
-     margin-top: 5%;
+   
+     max-width: 90%;
+     margin: 0 auto;
+      padding: 10px;
  }
  #btn{
   margin-top: 20px;
