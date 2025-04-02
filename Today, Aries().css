@@ -10,8 +10,6 @@ header img {
 
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: local;
@@ -36,7 +34,6 @@ html {
     border-color: white;
     background-color: #6b608f;
     color: white;
-    margin-top: 40px
     display: block;
 
 
